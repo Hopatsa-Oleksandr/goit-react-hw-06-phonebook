@@ -1,0 +1,28 @@
+h2 {
+    color: #000000;
+}
+.container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 450px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background-color: rgb(189, 224, 255);
+}
+
+.appear {
+    opacity: 0;
+    transform: translateX(-100%);
+    transform: scale(0.1);
+}
+
+.appearActive {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateX(0);
+    transition: all 500ms linear;
+}
